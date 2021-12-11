@@ -4,7 +4,9 @@ public class Curso {
 
 	String titulo;
 	String descricao;
-	int cargaHorario;
+	int cargaHoraria;
+	
+	
 	public String getTitulo() {
 		return titulo;
 	}
@@ -17,17 +19,17 @@ public class Curso {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	public int getCargaHorario() {
-		return cargaHorario;
+	public int getCargaHoraria() {
+		return cargaHoraria;
 	}
-	public void setCargaHorario(int cargaHorario) {
-		this.cargaHorario = cargaHorario;
+	public void setCargaHoraria(int cargaHoraria) {
+		this.cargaHoraria = cargaHoraria;
 	}
 	
 	
 	@Override
 	public String toString() {
-		return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHorario=" + cargaHorario + "]";
+		return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHorario=" + cargaHoraria + "]";
 	}
 	
 	
